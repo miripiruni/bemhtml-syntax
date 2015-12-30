@@ -12,8 +12,6 @@ var syntax = require(".."),
     path = require("path"),
     fs = require("fs");
 
-var pp = require("zeHelpers").prettyPrint;
-
 var common = exports;
 
 function getSource(fn) {
